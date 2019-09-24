@@ -1,0 +1,3394 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Swift Performance Lite\n"
+"POT-Creation-Date: 2019-01-08 10:03+0100\n"
+"PO-Revision-Date: 2019-01-08 10:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: performance.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cache-status/cache-status.php:11
+#: modules/image-optimizer/image-table.php:13
+msgid "Status"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:12
+#: modules/image-optimizer/image-table.php:15
+#: modules/image-optimizer/image-table.php:16 templates/dashboard.php:135
+msgid "URL"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:13
+msgid "Priority"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:14 templates/dashboard.php:136
+msgid "Prebuild priority"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:15
+msgid "Cache date"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:16
+msgid "Timestamp"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:134
+#: includes/cache-status/table-nav.php:5
+msgid "Cached"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:135
+msgid "Missing From Cache"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:136
+#: includes/cache-status/table-nav.php:8
+msgid "Cached 404"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:137
+msgid "Not cacheable"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:138
+#: includes/cache-status/table-nav.php:9
+msgid "Redirect"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:144
+msgid "Update"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:157
+msgid "View"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:158
+#: includes/luv-framework/framework-config.php:216
+msgid "Clear cache"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:158
+msgid "Cache page"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:159
+msgid "Remove URL"
+msgstr ""
+
+#: includes/cache-status/cache-status.php:163
+msgid "Subcache: "
+msgstr ""
+
+#: includes/cache-status/cache-status.php:218
+msgid "Scanning URLs..."
+msgstr ""
+
+#: includes/cache-status/cache-status.php:220
+msgid "No items found."
+msgstr ""
+
+#: includes/cache-status/table-nav.php:4
+#: modules/image-optimizer/templates/table-nav.php:7
+msgid "All Status"
+msgstr ""
+
+#: includes/cache-status/table-nav.php:6
+msgid "Not Cached"
+msgstr ""
+
+#: includes/cache-status/table-nav.php:7
+msgid "Not Cacheable"
+msgstr ""
+
+#: includes/cache-status/table-nav.php:14
+#: modules/image-optimizer/templates/table-nav.php:17
+msgid "Start typing..."
+msgstr ""
+
+#: includes/cache-status/table-nav.php:15
+#: modules/image-optimizer/templates/table-nav.php:18
+msgid "Filter"
+msgstr ""
+
+#: includes/classes/class.ajax.php:58
+msgid "Cache cleared"
+msgstr ""
+
+#: includes/classes/class.ajax.php:76 performance.php:254
+msgid "Assets cache cleared"
+msgstr ""
+
+#: includes/classes/class.ajax.php:192
+msgid "The given URL was empty."
+msgstr ""
+
+#: includes/classes/class.ajax.php:210
+msgid "The given URL was invalid (internal links only)."
+msgstr ""
+
+#: includes/classes/class.ajax.php:267
+msgid "Prebuilding cache is in progress"
+msgstr ""
+
+#: includes/classes/class.ajax.php:284
+msgid "Prebuilding cache stopped by user"
+msgstr ""
+
+#: includes/classes/class.ajax.php:301
+msgid ""
+"It seems that your htaccess is writable, you don't need to add rules "
+"manually."
+msgstr ""
+
+#: includes/classes/class.ajax.php:304
+msgid ""
+"It seems that your htaccess is NOT writable, you need to add rules manually."
+msgstr ""
+
+#: includes/classes/class.ajax.php:308
+msgid "You need to add rewrite rules manually to your Nginx config file."
+msgstr ""
+
+#: includes/classes/class.ajax.php:311
+msgid "Caching with rewrites currently available on Apache and Nginx only."
+msgstr ""
+
+#: includes/classes/class.ajax.php:318
+msgid "Rewrite Rules"
+msgstr ""
+
+#: includes/classes/class.ajax.php:354
+#, php-format
+msgid "Prebuild cache in progress: %s"
+msgstr ""
+
+#: includes/classes/class.ajax.php:362
+msgid "Cache status"
+msgstr ""
+
+#: includes/classes/class.ajax.php:367 includes/classes/class.ajax.php:369
+#: includes/classes/class.ajax.php:371
+#, php-format
+msgid " %s Mb"
+msgstr ""
+
+#: includes/classes/class.ajax.php:390 includes/classes/class.ajax.php:418
+msgid "Log is empty"
+msgstr ""
+
+#: includes/classes/class.ajax.php:395
+#, php-format
+msgid "Log - %s"
+msgstr ""
+
+#: includes/classes/class.ajax.php:432
+#: modules/critical-font/critical-font.php:56
+#: modules/critical-font/critical-font.php:181
+#: modules/critical-font/critical-font.php:217
+#: modules/db-optimizer/db-optimizer.php:66
+msgid "Your session has expired. Please refresh the page and try again."
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:33
+msgid "Export/Import"
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:37
+msgid "Export"
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:47
+#: includes/luv-framework/templates/tpl.import.php:20
+#: includes/setup/templates/wizard.tpl.php:301
+msgid "Import"
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:246
+#: includes/luv-framework/classes/class.option-fields.php:331
+msgid "You don't have permission for this action."
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:254
+#: includes/luv-framework/classes/class.option-fields.php:339
+msgid "Session expired. Please refresh the page."
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:314
+msgid "Settings saved. Some fields has validation issues."
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:320
+msgid "Settings saved."
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:349
+msgid "Uploaded file was corrupted."
+msgstr ""
+
+#: includes/luv-framework/classes/class.option-fields.php:369
+msgid "Settings was imported successfully."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:29
+msgid "Disk Cache with PHP"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:34
+msgid "Disk Cache with Rewrites"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:39
+msgid "Memcached with PHP"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:71
+msgid "Log directory doesn't exists"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:74
+msgid "Log directory should be a directory"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:76
+msgid ""
+"Log directory isn't writable for WordPress. Please change the permissions."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:98
+msgid "htaccess doesn't exists"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:101
+msgid "htaccess isn't writable for WordPress. Please change the permissions."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:119
+msgid "MU Plugins directory doesn't exists"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:122
+msgid ""
+"MU Plugins directory isn't writable for WordPress. Please change the "
+"permissions."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:136
+msgid "Cache directory doesn't exists"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:139
+msgid "Cache directory should be a directory"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:141
+msgid ""
+"Cache directory isn't writable for WordPress. Please change the permissions."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:165
+#: includes/luv-framework/framework-config.php:422
+#: modules/image-optimizer/templates/dashboard.tpl.php:79
+#: modules/plugin-organizer/plugin-organizer.php:332 performance.php:313
+#: performance.php:841 performance.php:1813
+msgid "Settings"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:172
+#: modules/image-optimizer/image-table.php:14
+msgid "Preview"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:179
+msgid ""
+"By default some options are hidden. You can switch to Advanced View to see "
+"all options"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:214
+#: includes/luv-framework/templates/tpl.header.php:24
+#: includes/luv-framework/templates/tpl.header.php:31
+#: includes/luv-framework/templates/tpl.import.php:18
+#: includes/setup/templates/wizard.tpl.php:299
+msgid "Hey!"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:215
+msgid "Some modifications affected cache. Would you like to clear cache?"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:217
+#: includes/luv-framework/framework-config.php:225
+#: includes/luv-framework/templates/tpl.header.php:27
+#: includes/luv-framework/templates/tpl.header.php:34 performance.php:402
+msgid "Dismiss"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:221
+msgid "Oh snap!"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:223
+msgid "Preview changes is available in Pro only."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:224
+msgid "Upgrade to Pro!"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:253
+msgid "Disable Cookies"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:255
+msgid "You can prevent Swift Performance to create cookies on frontend."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:256
+msgid ""
+"Regarding GDPR you can't use some cookies until the visitor approve them. In "
+"that case you can prevent Swift to create these cookies by default, and use "
+"swift_performance_cookies-disabled filter to override this option. Please "
+"note that Swift uses cookies for Google Analytics Bypass, and Appcache."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:264
+msgid "Hide Footprints"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:265
+#, php-format
+msgid "Prevent to add %s response header and HTML comment"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:273
+msgid "Use Compute API"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:274
+msgid "Speed up merging process and decrease CPU usage."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:275
+msgid ""
+"Compute API can speed up CPU extensive processes like generating Critical "
+"CSS, or minification."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:282
+msgid "Enable Remote Cron"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:283
+msgid "Set up a real cronjob with our API."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:284
+msgid ""
+"If all of your pages are cached - or if you disabled the default WP Cron - "
+"WordPress cronjobs won't run properly. With Remote Cron service you can run "
+"cronjobs daily, twicedaily or hourly."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:291
+msgid "Debug Log"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:292
+msgid "Enable debug logging"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:293
+msgid ""
+"If you have any issues (eg caching/image optimizer is not working) you can "
+"start debugging here."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:300
+msgid "Loglevel"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:303
+#: modules/image-optimizer/templates/dashboard.tpl.php:76
+#: modules/image-optimizer/templates/dashboard.tpl.php:77
+#: modules/image-optimizer/templates/dashboard.tpl.php:78
+msgid "All"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:304
+msgid "Warning"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:305
+#: modules/image-optimizer/templates/table-nav.php:12
+msgid "Error"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:312
+msgid "Log Path"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:325
+#: includes/setup/templates/wizard.tpl.php:83
+#: includes/setup/templates/wizard.tpl.php:100
+#: includes/setup/templates/wizard.tpl.php:121
+#: includes/setup/templates/wizard.tpl.php:144
+#: includes/setup/templates/wizard.tpl.php:167
+msgid "Normalize Static Resources"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:326
+msgid "Remove unnecessary query string from CSS, JS and image files."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:333
+msgid "Prefetch DNS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:334
+msgid "Prefetch DNS automatically."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:335
+msgid ""
+"DNS prefetching will resolve domain names before a user tries to follow a "
+"link, or before assets were loaded. It can decrease full load time, and also "
+"speed up outgoing links."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:343
+msgid "Collect domains from scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:344
+msgid "Collect domains from scripts for DNS Prefetch."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:345
+msgid ""
+"If this option is enabled, Swift will collect 3rd party domain names from "
+"javascript files as well. If it isn't enabled, it will collect domains only "
+"from HTML and CSS."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:353
+msgid "Exclude DNS Prefetch"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:354
+msgid "Exclude domains from DNS prefetch."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:355
+msgid ""
+"If you would like to prevent DNS prefetch for a domain you can add it here "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:362
+msgid "Gravatar Cache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:363
+msgid "Cache avatars."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:364
+msgid ""
+"WordPress is using Grvatar for avatars by default. Unfortunately sometimes "
+"these requests are slower than your server. In that case you should cache "
+"these pictures to speed up load time."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:371
+msgid "Gravatar Cache Expiry"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:372
+msgid "Avatar cache expiry."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:373
+msgid ""
+"If Gravatar cache is enabled, and a user change his/her avatar it should be "
+"changed in cache as well. You can set expiry time for Gavatar images here. "
+"If an image expires it will be loaded from Gravatar again, so changes can be "
+"applied."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:376
+msgid "1 hour"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:377
+msgid "12 hours"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:378
+msgid "1 day"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:379
+msgid "1 week"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:380
+msgid "1 month"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:387
+msgid "Custom Htaccess"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:388
+msgid ""
+"You can add custom rules before Swift Performance rules in the generated "
+"htaccess"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:389
+msgid ""
+"Swift Performance will add rules to the very beginning of htaccess. If you "
+"would like to put some rules before, you have to use this option."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:398
+msgid "Background Requests"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:399
+msgid ""
+"Specify key=value pairs. If one of these rules are match on $_REQUEST the "
+"process will run in background"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:400
+msgid ""
+"For some AJAX requests we doesn't need the response (eg post view stats). "
+"You can add rules to make this requests run in background, so the browser "
+"won't wait the response.<br><br>For example if there is a request: /?"
+"action=post_view_count you can set <i><b>action=post_view_count</b></i>"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:406
+msgid "Heartbeat"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:411
+msgid "Disable Heartbeat"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:413
+#: modules/plugin-organizer/plugin-organizer.php:322 performance.php:1812
+msgid "Dashboard"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:414
+msgid "Posts/Pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:415
+#: includes/luv-framework/framework-config.php:561
+#: modules/plugin-organizer/plugin-organizer.php:325
+msgid "Media"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:416
+#: modules/plugin-organizer/plugin-organizer.php:326
+#: templates/db-optimizer.php:123
+msgid "Comments"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:417
+#: modules/plugin-organizer/plugin-organizer.php:327
+msgid "Menus"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:418
+#: modules/plugin-organizer/plugin-organizer.php:328
+msgid "Widgets"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:419
+#: modules/plugin-organizer/plugin-organizer.php:329
+msgid "Theme/Plugin Editor"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:420
+#: modules/plugin-organizer/plugin-organizer.php:330
+msgid "Users"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:421
+#: modules/plugin-organizer/plugin-organizer.php:331
+msgid "Tools"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:426
+msgid ""
+"WordPress is using HeartBeat API to show real time notifications, notify "
+"users that a post is being edited by another user, etc. You can limit these "
+"requests where you don't really need them."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:431
+msgid "Heartbeat Frequency"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:432
+msgid "Override heartbeat frequency in seconds"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:471
+msgid "Google Analytics"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:476
+msgid "Bypass Google Analytics"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:479
+msgid ""
+"If you enable Bypass Analytics feature Swift will block the default Google "
+"Analytics script, and will use AJAX requests and the <a href=\"https://"
+"developers.google.com/analytics/devguides/collection/protocol/v1/parameters"
+"\" target=\"_blank\">Google Analytics Measurement protocoll</a> instead."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:484
+msgid "Tracking ID"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:485
+msgid "Eg: UA-123456789-12"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:491
+msgid "IP Source"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:492
+#, php-format
+msgid ""
+"Select IP source if your server is behind proxy (eg: Cloudflare). "
+"Recommended: %s"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:493
+msgid ""
+"If you are using reverse proxy (like Cloudflare) you will need to set the IP "
+"source for Google Analytics. Most cases Swift will detect the proper IP "
+"source automatically."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:513
+msgid "Anonymize IP"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:514
+msgid ""
+"In some cases, you might need to anonymize the user's IP address before it "
+"has been sent to Google Analytics. If you enable this option Google "
+"Analytics will anonymize the IP as soon as technically feasible at the "
+"earliest possible stage."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:521
+msgid "Delay Collect"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:522
+msgid "Send AJAX request only after the first user interaction"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:523
+msgid ""
+"If you enable this option Google Analytics requests will be send only after "
+"the user made a mouse move, keypress or scroll event. It will speed up "
+"initial loading time, but be careful, bounce rate statistics may will be "
+"distorted"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:535
+msgid "Exclude Users from Statistics"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:536
+msgid "Exclude selected user roles from statistics"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:537
+msgid ""
+"You can exclude logged in users from Analytics by user role. It can be "
+"extremly useful for smaller sites to see real stats, because editors won't "
+"affect the statistics when they check the site."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:546
+#: includes/luv-framework/framework-config.php:552
+msgid "Whitelabel"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:553
+msgid "You can rename the plugin, change slug, db prefixes, hide all traces."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:565
+#: modules/image-optimizer/templates/dashboard.tpl.php:71
+msgid "Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:571
+msgid "Optimize Images on Upload"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:572
+msgid ""
+"Enable if you would like to optimize the images during the upload using the "
+"our Image Optimization API service."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:573
+#, php-format
+msgid "Already uploaded images can be optimized %shere%s"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:580
+#: modules/image-optimizer/templates/dashboard.tpl.php:120
+msgid "Resize Large Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:581
+msgid "Resize images which are larger than maximum width"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:582
+msgid ""
+"If you don't need really big images, only web images you can resize uploaded "
+"images which are too large."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:589
+#: modules/image-optimizer/templates/dashboard.tpl.php:129
+msgid "Keep Original Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:590
+msgid ""
+"If you enable this option the image optimizer will keep original images."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:591
+msgid ""
+"It is recommended to keep original images on first try. If you realized that "
+"optimized images quality is not good enough, you can restore original images "
+"with one click, and reoptimize them on higher quality.<br><br> I you would "
+"like to save some space, you can also delete easily original images if you "
+"are satisfied with the optimization quality."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:597
+msgid "Inline Small Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:598
+msgid "Use base64 encoded inline images for small images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:599
+msgid ""
+"If you enable this option small images will be inlined, so you can reduce "
+"the number of HTML requests."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:606
+msgid "File Size Limit (bytes)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:607
+msgid "File size limit for inline images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:616
+#: includes/luv-framework/framework-config.php:633
+msgid "Exclude Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:617
+msgid ""
+"Exclude images from being embedded if one of these strings is found in the "
+"match."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:624
+msgid "Lazyload"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:625
+msgid "Enable if you would like lazy load for images."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:626
+msgid ""
+"If you enable this option, images will be replaced with a low quality "
+"(blurred) version, and only images in the viewport will be loaded fully."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:634
+msgid ""
+"Exclude images from being lazy loaded if one of these strings is found in "
+"the match."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:635
+msgid ""
+"It is recommended to exclude logo, and other small images which are "
+"important for the design or the user experience."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:642
+msgid "Load Images on User Interaction"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:643
+msgid ""
+"Enable if you would like to load full images only on user interaction (mouse "
+"move, sroll, touchstart)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:644
+msgid ""
+"In most cases you won't need that feature, however if you already excluded "
+"manually images \"above the fold\" from lazy loading, you can enable this "
+"option."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:655
+msgid "Inline Lazy Load Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:656
+msgid "Use base64 encoded inline images for lazy load"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:657
+msgid ""
+"Regarding that the low quality version of images are pretty small files you "
+"can inline them instead load them separately. With this option you can "
+"reduce number of requests."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:665
+msgid "Force Responsive Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:666
+msgid "Force all images to use srcset attribute if it is possible"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:667
+msgid ""
+"You will need this option only if your theme (or some of your plugins) is "
+"using images incorrectly, which is very rare. If you enable this option it "
+"will append srcset for all images which has multiple sizes in media library."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:675
+msgid "Embeds"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:682
+msgid "Lazy Load Iframes"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:683
+msgid "Enable if you would like lazy load for iframes."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:684
+msgid ""
+"Some embedded content (like Youtube videos) loads additional assets which "
+"are not necessary on initial pageload. You can lazyload them, so iframes "
+"will be loaded only before they arrives in the viewport."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:692
+msgid "Exclude Iframes"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:693
+msgid ""
+"Exclude iframes from being lazy loaded if one of these strings is found in "
+"the match."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:694
+msgid ""
+"Unfortunately some iframes can be broken if they are lazyloaded. You can "
+"exclude them with this option."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:701
+msgid "Load Iframes on User Interaction"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:702
+msgid ""
+"Enable if you would like to load iframes only on user interaction (mouse "
+"move, sroll, touchstart)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:703
+msgid ""
+"If you don't have any iframes in the \"above the fold\" section you can load "
+"them very last, when the page was fully loaded and the user made some "
+"interactions as well. It does't only speed up the page load, but also can "
+"save some bandwidth if it is important (eg for mobile users)."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:713
+msgid "Optimization"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:717
+#: includes/luv-framework/framework-config.php:1142
+#: includes/luv-framework/framework-config.php:1801
+#: templates/db-optimizer.php:15
+msgid "General"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:723
+msgid "Merge Assets for Logged in Users"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:724
+msgid ""
+"Enable if you would like to merge styles and scripts for logged in users as "
+"well."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:725
+msgid ""
+"It is recommended to enable this option only if the site is using action "
+"based cache or the cache is cleared very rarely. Otherwise it will optimize "
+"for logged in users in real time, which can damage the user experience."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:733
+msgid "Enable Server Push"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:734
+msgid ""
+"Server push allows you to send site assets to the browser before it has even "
+"asked for them"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:740
+msgid "Optimize Prebuild Only"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:741
+msgid ""
+"In some cases optimizing the page takes some time. If you enable this option "
+"the plugin will optimize the page, only when prebuild cache process is "
+"running."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:742
+#: includes/luv-framework/framework-config.php:751
+msgid ""
+"It is recommended to use this option, to prevent very long pageloads for the "
+"first visit (when the page is not cached yet)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:749
+msgid "Optimize in Background"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:750
+msgid ""
+"In some cases optimizing the page takes some time. If you enable this option "
+"the plugin will optimize page in the background."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:758
+msgid "Fix Invalid HTML"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:759
+msgid "Try to fix invalid HTML"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:760
+msgid ""
+"Sometimes themes and plugins contain invalid HTML, which doesn't cause "
+"issues in browser, because the browser can fix it on the fly, but it can "
+"cause issues with the DOM parser in Swift. If you enable this option Swift "
+"will fix these issues automatically like the modern browsers does."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:768
+#: includes/setup/templates/wizard.tpl.php:85
+#: includes/setup/templates/wizard.tpl.php:102
+#: includes/setup/templates/wizard.tpl.php:123
+#: includes/setup/templates/wizard.tpl.php:146
+#: includes/setup/templates/wizard.tpl.php:169
+msgid "Minify HTML"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:769
+msgid "Remove unnecessary whitespaces from HTML"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:776
+msgid "Disable Emojis"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:777
+msgid "Prevent WordPress to load emojis"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:778
+msgid ""
+"Most sites are not using emojis at all, however WordPress is loading it by "
+"default. If you disable it you can decrease the number of requests and page "
+"size as well. "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:785
+msgid "Limit Simultaneous Threads"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:786
+msgid ""
+"Limit maximum simultaneous threads. It can be useful on shared hosting "
+"environment to avoid 508 errors."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:792
+msgid "Maximum Threads"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:793
+msgid "Number of maximum simultaneous threads."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:800
+msgid "DOM Parser Max Buffer"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:801
+msgid "Maximum size for DOM parser buffer (bytes)."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:802
+msgid ""
+"Swift's DOM parser will skip pages which are larger than this value. It is "
+"recommended to use the deafult value, change it only if support suggested it."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:809
+msgid "Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:814
+msgid "Merge Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:815
+msgid "Merge javascript files to reduce number of HTML requests "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:816
+msgid ""
+"Merging scripts can reduce number of requests dramatically. Even if your "
+"server is using HTTP2 it can speed up the page loading, and also save some "
+"resources on server side (because the server needs to serve less requests)."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:823
+msgid "Async Execute"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:824
+msgid "Execute merged javascript files asynchronously"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:825
+msgid ""
+"If you merged all scripts, even the first one can run, only when the full "
+"merged script was loaded. However if you enable this option, Swift will "
+"split the merged script on client side on the fly and run each scripts when "
+"that part was loaded. It can speed up rendering time which is an important "
+"factor for user experience. "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:835
+msgid "Exclude 3rd Party Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:836
+msgid "Exclude 3rd party scripts from merged scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:847
+msgid "Exclude Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:848
+#: includes/luv-framework/framework-config.php:856
+msgid ""
+"Exclude scripts from being merged if one of these strings is found in the "
+"match."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:855
+msgid "Exclude Inline Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:863
+msgid "Exclude Script Localizations"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:864
+msgid "Exclude javascript localizations from merged scripts."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:865
+msgid ""
+"It is recommended to exclude script localizations, because they can increase "
+"the merged script's loading time, but there is no real benefit to including "
+"them. Please note that option will exclude all inline scripts which contains "
+"[[CDATA]]"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:876
+msgid "Minify Javascripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:885
+msgid "Minify with API"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:886
+msgid ""
+"Use Compute API for minify. Regarding that this minify method can be slower, "
+"use this option only if default JS minify cause javascript errors. "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:887
+msgid ""
+"Some scripts are not fully valid, but still operational (eg: missing "
+"semicolon). These scripts can cause issues when you minify them. If you use "
+"the API for script minify it can fix this parsing errors, but please note it "
+"will a bit slowdown the minifing process."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:898
+msgid "Proxy 3rd Party Assets"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:899
+msgid ""
+"Proxy 3rd party javascript and CSS files which created by javascript (eg: "
+"Google Analytics)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:910
+msgid "3rd Party Assets"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:911
+msgid "List scripts (full URL) which should being proxied."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:921
+msgid "Separate Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:922
+msgid ""
+"If you enable this option the plugin will save merged JS files for pages "
+"separately"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:930
+msgid "Print merged scripts inline"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:931
+msgid ""
+"Enable if you would like to print merged scripts into the footer, instead of "
+"a seperated file."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:941
+msgid "Lazy Load Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:942
+msgid ""
+"Load scripts only after first user interaction, if one of these strings is "
+"found in the match."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:943
+msgid ""
+"With this feature you can be sure that included scripts will be loaded very "
+"last, and won't delay rendering process."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:953
+#: modules/asset-manager/templates/meta-box.tpl.php:3
+msgid "Include Scripts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:954
+msgid ""
+"Include scripts manually. With this option you can preload script files what "
+"are loaded with javascript"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:964
+msgid "Styles"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:969
+#: includes/setup/templates/wizard.tpl.php:103
+#: includes/setup/templates/wizard.tpl.php:124
+#: includes/setup/templates/wizard.tpl.php:147
+#: includes/setup/templates/wizard.tpl.php:170
+msgid "Merge Styles"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:970
+msgid "Merge CSS files to reduce number of HTML requests"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:971
+msgid ""
+"Merging styles can reduce number of requests dramatically. Even if your "
+"server is using HTTP2 it can speed up the page loading, and also save some "
+"resources on server side (because the server needs to serve less requests)."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:978
+msgid "Generate Critical CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:979
+msgid ""
+"Critical CSS is an extract of the full CSS, which contains only that rules "
+"which are necessary to render the site on the initial load."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:987
+msgid "Extra Critical CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:988
+msgid "You can add extra CSS to Critical CSS here"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:989
+msgid ""
+"If you would like to add some custom CSS rules to Critical CSS you can add "
+"them here."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1001
+msgid "Disable Full CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1002
+msgid "Load Critical CSS only. Be careful, it may can cause styling issues."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1003
+msgid ""
+"On simple sites, which are using only a few modifications on the loaded site "
+"you can totally disable the full CSS. If you would like to use this, please "
+"be careful, and test all pages. If something is missing you can add them "
+"with Extra Critical CSS."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1015
+msgid "Compress Critical CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1016
+msgid "Extra compress for critical CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1017
+msgid ""
+"If you enable this feature Swift will change all class names and ids in the "
+"critical CSS to a shorter one, so you can save some extra bytes."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1030
+msgid "Remove Keyframes"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1031
+msgid "Remove CSS animations from critical CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1043
+msgid "Print critical CSS inline"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1044
+msgid ""
+"Enable if you would like to print the critical CSS into the header, instead "
+"of a seperated CSS file."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1055
+msgid "Print full CSS inline"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1056
+msgid ""
+"Enable if you would like to print the merged CSS into the footer, instead of "
+"a seperated CSS file."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1057
+msgid ""
+"Please note that this is a special feature only for special cases. If "
+"WordPress can write files on the server you shouldn't use this option, even "
+"if page speed scores are better, because with this you will prevent the "
+"browser to cache the CSS. and it will be downloaded each time when the "
+"visitor is navigating on your site."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1065
+msgid "Separate Styles"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1066
+msgid ""
+"If you enable this option the plugin will save merged CSS files for pages "
+"separately"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1074
+msgid "Minify CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1075
+msgid "Remove unnecessary whitespaces, shorten color codes and font weights"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1078
+msgid "Don't minify"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1079
+msgid "Basic"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1080
+msgid "Full - Pro feature"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1088
+#: includes/setup/templates/wizard.tpl.php:105
+#: includes/setup/templates/wizard.tpl.php:126
+#: includes/setup/templates/wizard.tpl.php:149
+#: includes/setup/templates/wizard.tpl.php:172
+msgid "Bypass CSS Import"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1089
+msgid "Include imported CSS files in merged styles."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1097
+msgid "Exclude 3rd Party CSS"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1098
+msgid "Exclude 3rd party CSS files (eg: Google Fonts CSS) from merged styles"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1109
+msgid "Exclude Styles"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1110
+msgid ""
+"Exclude style from being merged if one of these strings is found in the file "
+"name. "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1117
+msgid "Exclude Inline Styles"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1118
+msgid ""
+"Exclude style from being merged if one of these strings is found in CSS. "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1125
+#: modules/asset-manager/templates/meta-box.tpl.php:21
+msgid "Include Styles"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1126
+msgid ""
+"Include styles manually. With this option you can preload css files what are "
+"loaded with javascript"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1138
+#: includes/setup/templates/wizard.tpl.php:82
+#: includes/setup/templates/wizard.tpl.php:99
+#: includes/setup/templates/wizard.tpl.php:119
+#: includes/setup/templates/wizard.tpl.php:142
+msgid "Caching"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1147
+msgid "Enable Caching"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1154
+msgid "Caching Mode"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1159
+msgid ""
+"If rewrites are working on your server you always should use Disk cache with "
+"Rewrites, this is the fastest method for serving cache."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1164
+msgid "Memcached Host"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1174
+msgid "Memcached Port"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1184
+msgid "Early Loader"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1185
+#, php-format
+msgid "Use %s Loader mu-plugin "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1186
+msgid ""
+"If Swift have to serve the cache with PHP it will speed up the process. "
+"Please note that some requests will be served with PHP even if you choose "
+"the Disk with Rewrites caching mode."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1196
+msgid "Cache Path"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1207
+msgid "Cache Expiry Mode"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1210
+msgid "Time based mode"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1211
+msgid "Action based mode"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1214
+msgid ""
+"It is recommended to use Action based mode. Swift will clear the cache if "
+"the content was modified (post update, new post, new comment, comment "
+"approved, stock changed, etc). However if the site is using nonce or any "
+"other thing what can expire, you should choose the Time based expiry mode."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1219
+msgid "Cache Expiry Time"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1220
+msgid "Clear cached pages after specified time"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1238
+msgid "Garbage Collection Interval"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1239
+msgid "How often should check the expired cached pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1256
+msgid "Clear Cache on Update Post by Page"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1257
+msgid "Select pages where cache should be cleared after publish/update post."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1258
+msgid ""
+"It is useful if your site is using for example a WooCommerce shortcode to "
+"show products on homepage. Because it is a shortcode homepage cache won't be "
+"cleared automatically if a post/stock/comment was updated, however you can "
+"specify pages manually here."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1268
+msgid "Clear Cache on Update Post by URL"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1269
+msgid "Set URLs where cache should be cleared after publish/update post."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1270
+msgid ""
+"It is useful if your site is using for example a WooCommerce shortcode to "
+"show products on homepage. Because it is a shortcode homepage cache won't be "
+"cleared automatically if a post/stock/comment was updated, however you can "
+"specify URLs manually here."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1279
+msgid "Enable Caching for logged in users"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1280
+msgid ""
+"This option can increase the total cache size, depending on the count of "
+"your users."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1287
+msgid "Shared Logged in Cache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1288
+msgid ""
+"If you enable this option logged in users won't have separate private cache, "
+"but they will get content from public cache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1299
+msgid "Separate Mobile Device Cache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1300
+msgid ""
+"You can create separate cache for mobile devices, it can be useful if your "
+"site not just responsive, but it has a separate mobile theme/layout (eg: "
+"AMP). "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1308
+msgid "Enable Browser Cache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1309
+msgid ""
+"If you enable this option it will generate htacess/nginx rules for browser "
+"cache. (Expire headers should be configured on your server as well)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1316
+msgid "Enable Gzip"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1317
+msgid ""
+"If you enable this option it will generate htacess/nginx rules for gzip "
+"compression. (Compression should be configured on your server as well)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1324
+msgid "Send 304 Header"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1334
+msgid "Cache 404 pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1341
+msgid "Enable Dynamic Caching"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1342
+msgid ""
+"If you enable this option you can specify cacheable $_GET and $_POST requests"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1350
+msgid "Cacheable Dynamic Requests"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1351
+msgid ""
+"Specify $_GET and/or $_POST keys what should be cached. Eg: \"s\" to cache "
+"search requests"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1358
+msgid "Cacheable AJAX Actions"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1359
+msgid "With this option you can cache resource-intensive AJAX requests"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1365
+msgid "AJAX Cache Expiry Time"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1366
+msgid "Cache expiry time for AJAX requests in seconds"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1373
+msgid "Tweaks"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1379
+msgid "Ignore Query String"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1380
+msgid "Ignore GET parameters for caching"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1381
+msgid ""
+"If you enable this option Swift will ignore query string. It will cache the "
+"page even if there is something in query string, and also will serve the "
+"cached page if it is already cached."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1391
+msgid "Avoid Mixed Content"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1392
+msgid "Remove protocol from resource URLs to avoid mixed content errors"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1393
+msgid ""
+"If your site can be loaded via HTTP and HTTPS as well it can cause mixed "
+"content errors. If you enable this option it will remove the protocoll from "
+"all resources to avoid it. Use it only on HTTPS sites."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1400
+msgid "Keep Original Headers"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1401
+msgid "Serve original headers for cached pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1402
+msgid ""
+"If you are using a plugin which send custom headers you can keep them for "
+"the cached version as well."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1412
+msgid "Case Insensitive URLs"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1413
+msgid "Convert URLs to lower case for caching"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1423
+msgid "Lazyload elements"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1424
+msgid "Specify CSS selectors"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1425
+msgid ""
+"You can specify CSS selectors (eg: #related-products or .last-comments) to "
+"lazyload elements on the page. These elements will be loaded via AJAX after "
+"the page loaded. It can be useful for elements which can't be cached and "
+"should be loaded dynamically, like related products, recently view products, "
+"most popular posts, recent comments etc."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1434
+msgid "Exceptions"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1440
+msgid "Exclude Post Types"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1441
+msgid "Select post types which shouldn't be cached."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1450
+#: includes/luv-framework/framework-config.php:1679
+#: includes/luv-framework/framework-config.php:1756
+msgid "Exclude Pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1451
+msgid "Select pages which shouldn't be cached."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1459
+msgid "Exclude URLs"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1460
+msgid ""
+"URLs which contains that string won't be cached. Use leading/trailing # for "
+"regex"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1467
+msgid "Exclude Content Parts"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1468
+msgid ""
+"Pages which contains that string won't be cached. Use leading/trailing # for "
+"regex"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1475
+msgid "Exclude User Agents"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1476
+msgid ""
+"User agents which contains that string won't be cached. Use leading/trailing "
+"# for regex"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1482
+msgid "Exclude Crawlers"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1483
+msgid "Exclude known crawlers from cache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1490
+msgid "Exclude Author Pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1498
+msgid "Exclude Archive"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1506
+msgid "Exclude REST URLs"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1514
+msgid "Exclude Feed"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1522
+msgid "Warmup"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1527
+msgid "Enable Remote Prebuild Cache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1528
+msgid "Use API to prebuild cache."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1529
+msgid ""
+"It is a fallback option if loopbacks are disabled on the server. If you can "
+"use local prebuild it is recommended to leave this option unchecked."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1536
+msgid "Prebuild Cache Automatically"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1537
+msgid "This option will prebuild the cache after it was cleared"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1543
+msgid "Prebuild Speed"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1544
+msgid ""
+"You can limit prebuild speed. It is recommended to use on limited shared "
+"hosting."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1547
+msgid "Moderate"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1548
+msgid "Reduced"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1549
+msgid "Slow"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1557
+msgid "Discover New Pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1558
+msgid ""
+"Let the plugin to discover new pages for warmup (eg: pagination, plugin-"
+"created pages, etc)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1565
+msgid "Prebuild Author Pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1573
+msgid "Prebuild Archive"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1581
+msgid "Prebuild REST URLs"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1589
+msgid "Prebuild Feed"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1597
+msgid "Varnish"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1602
+#: includes/luv-framework/framework-config.php:1882
+#: includes/setup/templates/wizard.tpl.php:238
+msgid "Enable Auto Purge"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1608
+msgid "Custom Host"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1609
+msgid "If you are using proxy (eg: Cloudflare) you may need this option"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1618
+msgid "Appcache"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1623
+msgid "Enable Appcache for Desktop"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1633
+#: includes/luv-framework/framework-config.php:1710
+msgid "Appcache Mode"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1635
+#: includes/luv-framework/framework-config.php:1712
+msgid "Full site"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1636
+#: includes/luv-framework/framework-config.php:1713
+msgid "Specific pages only"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1646
+msgid "Desktop Max Size"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1647
+#: includes/luv-framework/framework-config.php:1724
+msgid "Appcache maximum full size on desktop devices"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1657
+#: includes/luv-framework/framework-config.php:1734
+msgid "Include Pages"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1658
+#: includes/luv-framework/framework-config.php:1735
+msgid "Select pages which should be cached with Appcache."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1668
+#: includes/luv-framework/framework-config.php:1745
+msgid "Include Strings"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1669
+#: includes/luv-framework/framework-config.php:1746
+msgid ""
+"Cache pages with Appcache only if one of these strings is found in the URL."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1680
+#: includes/luv-framework/framework-config.php:1757
+msgid "Select pages which shouldn't be cached with Appcache."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1690
+#: includes/luv-framework/framework-config.php:1767
+msgid "Exclude Strings"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1691
+#: includes/luv-framework/framework-config.php:1768
+msgid ""
+"Exclude pages from Appcache if one of these strings is found in the URL."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1700
+msgid "Enable Appcache for Mobile"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1723
+msgid "Mobile Max Size"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1779
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1785
+msgid "Cache Empty Minicart"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1786
+msgid ""
+"Let Swift to cache Cart Fragments (wc-ajax=get_refreshed_fragments) requests "
+"if the cart is empty"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1797
+msgid "CDN"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1806
+msgid "Enable CDN"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1813
+msgid "CDN Hostname"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1820
+#: includes/luv-framework/framework-config.php:1852
+msgid "CDN Hostname for Javascript "
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1822
+#: includes/luv-framework/framework-config.php:1854
+msgid "Use different hostname for javascript files"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1828
+#: includes/luv-framework/framework-config.php:1860
+msgid "CDN Hostname for Media files"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1830
+#: includes/luv-framework/framework-config.php:1862
+msgid "Use different hostname for media files"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1836
+msgid "Enable CDN on SSL"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1838
+msgid ""
+"You can specify different hostname(s) for SSL, or leave them blank for use "
+"the same host on HTTP and SSL"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1845
+msgid "SSL CDN Hostname"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1869
+msgid "CDN Custom File Types"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1870
+msgid "Use CDN for custom file types. Specify file extensions, eg: pdf"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1877
+#: includes/setup/templates/wizard.tpl.php:233
+msgid "Cloudflare"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1888
+#: includes/setup/templates/wizard.tpl.php:244
+msgid "Cloudflare Account E-mail"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1897
+#: includes/setup/templates/wizard.tpl.php:251
+msgid "Cloudflare API Key"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1906
+msgid "MaxCDN (StackPath)"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1911
+msgid "MAXCDN Alias"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1920
+msgid "MAXCDN Consumer Key"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:1929
+msgid "MAXCDN Consumer Secret"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.checkbox.php:18
+msgid "Toggle All"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.export.php:3
+msgid "Export Settings"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.export.php:5
+msgid "You can export and download current settings here."
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.export.php:9
+msgid "Download"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.header.php:3
+#: templates/critical-font.php:15
+msgid "Search"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.header.php:8
+#: modules/plugin-organizer/plugin-organizer.php:263
+msgid "Save changes"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.header.php:12
+#: includes/luv-framework/templates/tpl.header.php:26
+msgid "Reset Section"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.header.php:15
+#: includes/luv-framework/templates/tpl.header.php:33
+msgid "Reset All"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.header.php:25
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.header.php:32
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.import.php:3
+#: includes/setup/templates/wizard.tpl.php:39
+#: includes/setup/templates/wizard.tpl.php:58
+msgid "Import Settings"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.import.php:5
+#: includes/setup/templates/wizard.tpl.php:60
+msgid "Upload previously exported configuration file."
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.import.php:10
+#: includes/setup/templates/wizard.tpl.php:62
+msgid "Choose file"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.import.php:19
+#: includes/setup/templates/wizard.tpl.php:300
+msgid ""
+"Import configuration file will override current settings. Do you proceed?"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.import.php:21
+#: includes/setup/templates/deactivate.tpl.php:70
+#: includes/setup/templates/wizard.tpl.php:211
+#: includes/setup/templates/wizard.tpl.php:302
+#: modules/plugin-organizer/plugin-organizer.php:263
+msgid "Cancel"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.key-value.php:3
+#: includes/luv-framework/templates/tpl.key-value.php:31
+msgid "Key"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.key-value.php:4
+#: includes/luv-framework/templates/tpl.key-value.php:32
+msgid "Value"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.key-value.php:36
+#: includes/luv-framework/templates/tpl.multi-text.php:33
+msgid "Add more"
+msgstr ""
+
+#: includes/luv-framework/templates/tpl.license.php:24
+msgid "Remove purchase key"
+msgstr ""
+
+#: includes/setup/setup.php:33
+msgid "Upload"
+msgstr ""
+
+#: includes/setup/setup.php:34
+msgid "Modify"
+msgstr ""
+
+#: includes/setup/setup.php:35
+msgid "Please wait..."
+msgstr ""
+
+#: includes/setup/setup.php:36
+msgid "Test timed out"
+msgstr ""
+
+#: includes/setup/setup.php:86
+msgid "Your session has been expired. Please refresh the page and try again."
+msgstr ""
+
+#: includes/setup/setup.php:101
+msgid "Purchase key has been saved."
+msgstr ""
+
+#: includes/setup/setup.php:116
+msgid "Cloudflare API has been set."
+msgstr ""
+
+#: includes/setup/setup.php:201
+#, php-format
+msgid "%s detected. "
+msgstr ""
+
+#: includes/setup/setup.php:204
+msgid "Rewrites are working. "
+msgstr ""
+
+#: includes/setup/setup.php:204
+msgid "Rewrites are not working. "
+msgstr ""
+
+#: includes/setup/setup.php:210
+#, php-format
+msgid "Please enable %s Apache module for better optimization."
+msgid_plural ""
+"Please enable the following Apache modules for better optimization: %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/setup/setup.php:218
+msgid "Server software was not detected."
+msgstr ""
+
+#: includes/setup/setup.php:243
+msgid "Loopback is working"
+msgstr ""
+
+#: includes/setup/setup.php:248
+msgid "Loopback is disabled."
+msgstr ""
+
+#: includes/setup/setup.php:268
+msgid ""
+"Cloudflare was detected. Please set your API credentials on next screen."
+msgstr ""
+
+#: includes/setup/setup.php:275
+msgid "Varnish was detected"
+msgstr ""
+
+#: includes/setup/setup.php:280
+msgid ""
+"Server side cache was detected. Please disable it to avoid cache conflicts."
+msgstr ""
+
+#: includes/setup/setup.php:284
+msgid "No Varnish or Cloudflare was detected"
+msgstr ""
+
+#: includes/setup/setup.php:289
+msgid ""
+"Loopback is disabled, Swift can't check Varnish and reverse proxy. If you "
+"are using Cloudflare cache please set your API credentials on next screen."
+msgstr ""
+
+#: includes/setup/setup.php:323
+msgid "Safe mode is enabled. "
+msgstr ""
+
+#: includes/setup/setup.php:328
+msgid "set_time_limit is disabled. "
+msgstr ""
+
+#: includes/setup/setup.php:333
+#, php-format
+msgid "Memory: %s. "
+msgstr ""
+
+#: includes/setup/setup.php:337
+msgid "Low memory environment detected. "
+msgstr ""
+
+#: includes/setup/setup.php:348
+#, php-format
+msgid "%s was deactivated. "
+msgid_plural "The following plugins were deactivated: %s. "
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/setup/setup.php:355
+msgid "No hard plugin conflict found. "
+msgstr ""
+
+#: includes/setup/setup.php:366
+msgid "WP Touch detected, caching for mobile is disabled. "
+msgstr ""
+
+#: includes/setup/setup.php:375
+msgid ""
+"Autoptimize detected, merge styles/scripts and minify HTML were disabled. "
+msgstr ""
+
+#: includes/setup/setup.php:393
+msgid "Running in background"
+msgstr ""
+
+#: includes/setup/setup.php:401
+msgid "Done."
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:14
+#: includes/setup/templates/wizard.tpl.php:10
+#, php-format
+msgid "%s setup"
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:34
+#, php-format
+msgid "Deactivate %s"
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:38
+msgid "Keep Settings"
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:40
+msgid ""
+"If you enable this option, the plugin will keep current settings in DB after "
+"deactivate the plugin."
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:47
+msgid "Keep Custom htaccess"
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:49
+msgid ""
+"If you enable this option, the plugin will keep custom htaccess rules after "
+"deactivate the plugin."
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:56
+msgid "Keep Warmup Table"
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:58
+msgid ""
+"If you enable this option, the plugin will keep Warmup Table in DB after "
+"deactivate the plugin."
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:64
+msgid "Keep Logs"
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:66
+msgid ""
+"If you enable this option, the plugin will keep logs after deactivate the "
+"plugin."
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:69 performance.php:312
+msgid "Deactivate"
+msgstr ""
+
+#: includes/setup/templates/deactivate.tpl.php:75
+#: includes/setup/templates/wizard.tpl.php:294
+msgid "Back to Dashboard"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:30
+#, php-format
+msgid "%s Setup Wizard"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:34
+msgid "Manual Configuration"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:44
+#: includes/setup/templates/wizard.tpl.php:73
+#: includes/setup/templates/wizard.tpl.php:88
+#: includes/setup/templates/wizard.tpl.php:108
+#: includes/setup/templates/wizard.tpl.php:131
+msgid "Use Preset"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:49
+msgid "Autoconfig"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:57
+#: includes/setup/templates/wizard.tpl.php:72
+msgid "Back"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:78
+msgid "Simple Caching"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:80
+msgid ""
+"Disk caching + PHP (timebased) with basic improvements. High compatibility, "
+"limited optimization."
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:84
+#: includes/setup/templates/wizard.tpl.php:101
+#: includes/setup/templates/wizard.tpl.php:122
+#: includes/setup/templates/wizard.tpl.php:145
+#: includes/setup/templates/wizard.tpl.php:168
+msgid "DNS Prefetch"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:95
+msgid "Limited Hosting"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:97
+msgid ""
+"Disk caching + PHP (timebased) with basic improvements and basic "
+"optimization. It is ideal for limited shared hosting or very small VPS."
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:104
+#: includes/setup/templates/wizard.tpl.php:125
+#: includes/setup/templates/wizard.tpl.php:148
+msgid "Basic CSS Minification"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:115
+msgid "Moderate Optimization"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:117
+msgid ""
+"Disk caching + rewrites (timebased), basic CSS/JS optimization + Critical "
+"CSS. Good compatibility, improved optimization."
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:120
+#: includes/setup/templates/wizard.tpl.php:143
+#: includes/setup/templates/wizard.tpl.php:166
+msgid "Prebuild Cache"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:127
+#: includes/setup/templates/wizard.tpl.php:150
+#: includes/setup/templates/wizard.tpl.php:173
+msgid "Critical CSS"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:128
+#: includes/setup/templates/wizard.tpl.php:151
+#: includes/setup/templates/wizard.tpl.php:174
+msgid "Merge JS"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:138
+msgid "Improved Optimization"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:140
+msgid ""
+"Disk caching + rewrites (timebased), CSS/JS optimization + Critical CSS and "
+"lazyload for images. Good compatibility, well optimized."
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:152
+#: includes/setup/templates/wizard.tpl.php:175
+msgid "Lazyload for Images"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:161
+msgid "Maximum Optimization"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:163
+msgid ""
+"Disk caching + rewrites (timebased), CSS/JS optimization + Critical CSS and "
+"lazyload for images. Good compatibility, improved optimization."
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:165
+msgid "Disk Caching"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:171
+msgid "Full CSS Minification"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:176
+msgid "Async Execute for JS"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:177
+msgid "Server Push"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:179
+msgid "Cache Empty Minicart for WooCommerce"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:192
+msgid "Auto-configuration"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:194
+msgid ""
+"Please note, that if you run the wizard it will reset current settings to "
+"the default!"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:200
+#, php-format
+msgid "<strong>%s</strong> will be deactivated during the setup."
+msgid_plural ""
+"The following plugins will be deactivated during the setup: <strong>%s</"
+"strong>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/setup/templates/wizard.tpl.php:210
+msgid "Start"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:216
+msgid "Reset settings"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:217
+msgid "Timeout test"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:218
+msgid "Check Max Connections"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:219
+msgid "Webserver & Rewrites"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:220
+msgid "Loopback"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:221
+msgid "Detect Varnish & Cloudflare"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:222
+msgid "PHP settings"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:223
+msgid "Detect 3rd party plugins"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:224
+msgid "Configure cache"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:227
+msgid "Next"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:240
+msgid ""
+"If you enable this option the plugin will purge the cache on Cloudflare as "
+"well when it clears plugin cache. It is recommended to enable this option if "
+"you are using Cloudflare with caching."
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:247
+msgid ""
+"Your e-mail address which related to the Cloudflare account what you are "
+"using for the site."
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:254
+#, php-format
+msgid "  The generated API key for your Cloudflare account. %sGlobal API key%s"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:257
+msgid "Save"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:258
+msgid "Skip"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:263
+msgid "Your website is ready!"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:267
+msgid ""
+"You can check advanced settings also to improve your results.<br> If you "
+"need any help, check the <a href=\"https://swiftperformance.io/faq/\" target="
+"\"_blank\">FAQ</a>, <a href=\"https://kb.swteplugins.com/swift-performance/"
+"\" target=\"_blank\">Knowledge Base</a>, <a href=\"https://swteplugins.com/"
+"support/\" target=\"_blank\">Open a support ticket</a>, or join to the <a "
+"href=\"https://www.facebook.com/groups/SwiftPerformanceUsers/\" target="
+"\"_blank\">Facebook Community!</a>"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:272
+msgid "Optimize images"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:274
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:275
+#, php-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:276
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:279
+msgid "What's next?"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:283
+msgid "Join to the Facebook Community"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:284
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: includes/setup/templates/wizard.tpl.php:285
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: modules/asset-manager/meta-boxes.php:4
+msgid "Swift Performance"
+msgstr ""
+
+#: modules/asset-manager/templates/meta-box.tpl.php:7
+#: modules/asset-manager/templates/meta-box.tpl.php:13
+#: modules/asset-manager/templates/meta-box.tpl.php:25
+#: modules/asset-manager/templates/meta-box.tpl.php:32
+msgid "Remove"
+msgstr ""
+
+#: modules/asset-manager/templates/meta-box.tpl.php:16
+#: modules/asset-manager/templates/meta-box.tpl.php:35
+msgid "Add More"
+msgstr ""
+
+#: modules/asset-manager/templates/meta-box.tpl.php:39
+msgid "There is no available option for this page"
+msgstr ""
+
+#: modules/cdn/cdn-manager.php:118
+msgid "No zones were found"
+msgstr ""
+
+#: modules/cdn/cdn-manager.php:124
+#, php-format
+msgid "Purge Cache: Zone Purged [id: %s]"
+msgstr ""
+
+#: modules/cdn/cdn-manager.php:130
+#, php-format
+msgid "Purge Cache: Unknown error[id: %s]"
+msgstr ""
+
+#: modules/critical-font/critical-font.php:65
+msgid "Please select at least one icon."
+msgstr ""
+
+#: modules/critical-font/critical-font.php:97
+#, php-format
+msgid "%s is not writable. Please change permissions."
+msgstr ""
+
+#: modules/critical-font/critical-font.php:129
+msgid "API error"
+msgstr ""
+
+#: modules/critical-font/critical-font.php:154
+msgid "Critical font enqueued"
+msgstr ""
+
+#: modules/critical-font/critical-font.php:155 templates/critical-font.php:8
+msgid "Enqueued"
+msgstr ""
+
+#: modules/critical-font/critical-font.php:164
+#, php-format
+msgid "Critical Font API call failed: %s"
+msgstr ""
+
+#: modules/critical-font/critical-font.php:202
+msgid "Critical font dequeued"
+msgstr ""
+
+#: modules/critical-font/critical-font.php:203
+msgid "Dequeued"
+msgstr ""
+
+#: modules/db-optimizer/db-optimizer.php:55 templates/set-purchase-key.php:6
+msgid "This feature is available only in premium version."
+msgstr ""
+
+#: modules/db-optimizer/db-optimizer.php:56 templates/set-purchase-key.php:9
+msgid "Purchase a license"
+msgstr ""
+
+#: modules/db-optimizer/db-optimizer.php:77
+#, php-format
+msgid "%d tables optimized"
+msgstr ""
+
+#: modules/db-optimizer/db-optimizer.php:81
+#, php-format
+msgid "%d tables reindexed"
+msgstr ""
+
+#: modules/image-optimizer/image-optimizer.php:86
+msgid "Preparing..."
+msgstr ""
+
+#: modules/image-optimizer/image-optimizer.php:87
+msgid "Done"
+msgstr ""
+
+#: modules/image-optimizer/image-optimizer.php:88
+msgid "Restart"
+msgstr ""
+
+#: modules/image-optimizer/image-optimizer.php:89
+msgid "Running"
+msgstr ""
+
+#: modules/image-optimizer/image-optimizer.php:90
+msgid "Progress:"
+msgstr ""
+
+#: modules/image-optimizer/image-optimizer.php:91
+msgid "Compression ratio:"
+msgstr ""
+
+#: modules/image-optimizer/image-optimizer.php:92
+msgid "All of your images are already optimized"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:17
+#: modules/image-optimizer/image-table.php:18
+msgid "Size"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:19
+msgid "Dimensions"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:95
+msgid "Not Writable"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:101
+msgid "Too Large"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:105
+#: modules/image-optimizer/templates/table-nav.php:8
+msgid "Optimized"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:106
+#: modules/image-optimizer/templates/table-nav.php:9
+msgid "Not Optimized"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:107
+#: modules/image-optimizer/templates/table-nav.php:11
+msgid "Excluded"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:108
+#: modules/image-optimizer/templates/table-nav.php:10
+msgid "Queued"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:155
+#, php-format
+msgid "(Original: %s)"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:202
+msgid "Exclude"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:203
+msgid "Include"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:204
+msgid "Optimize"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:205
+msgid "Remove Original"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:206
+msgid "Restore Original"
+msgstr ""
+
+#: modules/image-optimizer/image-table.php:253
+msgid "Show more details"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:10
+msgid "Statistics"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:13
+msgid "Scanning images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:25
+msgid "Queued Images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:29
+msgid "Optimized Images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:33
+msgid "Saved"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:37
+msgid "Clear queue"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:42
+msgid "Original size"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:55
+msgid "Current size"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:75
+msgid "Scan Images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:76
+msgid "Optimize Images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:77
+msgid "Restore Original Images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:78
+msgid "Delete Original Images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:83
+msgid "Coverflow can show maximum 1000 images"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:84
+msgid "images selected"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:84
+msgid "Clear All"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:99
+msgid "Optimizer Settings"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:102
+msgid "JPEG quality"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:111
+msgid "PNG quality"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:136
+msgid "Close"
+msgstr ""
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:136
+msgid "Use Global Settings"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:8
+msgid "Image details"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:20
+msgid "Show optimized"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:20
+msgid "Show original"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:27
+msgid "File name:"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:28
+msgid "Original size:"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:30
+msgid "Optimized size:"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:31
+msgid "Quality:"
+msgstr ""
+
+#: modules/image-optimizer/templates/modal.tpl.php:33
+msgid "Dimensions:"
+msgstr ""
+
+#: modules/image-optimizer/templates/table-nav.php:16
+msgid "Search:"
+msgstr ""
+
+#: modules/image-optimizer/templates/table-nav.php:20
+msgid "Select All"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:281
+msgid "Frontend"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:284
+msgid "URL Match"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:287
+msgid "Admin pages"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:290
+msgid "All AJAX request"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:293
+msgid "AJAX Action"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:296
+msgid "User Role"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:299
+msgid "Query String"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:302
+msgid "Cookie"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:305
+msgid "Desktop"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:308
+msgid "Mobile"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:323
+msgid "Posts/Pages List Table"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:324
+msgid "Posts/Pages Editor"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:376
+msgid "Not logged in"
+msgstr ""
+
+#: modules/plugin-organizer/plugin-organizer.php:377
+msgid "Logged in"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: performance.php:97
+msgid "Swift Performance Lite"
+msgstr ""
+
+#: performance.php:226
+#, php-format
+msgid "%s Cache Expiry"
+msgstr ""
+
+#: performance.php:232
+#, php-format
+msgid "%s Assets Cache Expiry"
+msgstr ""
+
+#: performance.php:249
+msgid "All cache cleared"
+msgstr ""
+
+#: performance.php:398
+msgid "Do you want to clear all logs?"
+msgstr ""
+
+#: performance.php:399
+msgid "Do you want to reset prebuild links?"
+msgstr ""
+
+#: performance.php:400
+msgid "Not set"
+msgstr ""
+
+#: performance.php:401
+msgid "Settings were changed. Would you like to clear all cache?"
+msgstr ""
+
+#: performance.php:796 performance.php:1814
+msgid "Image Optimizer"
+msgstr ""
+
+#: performance.php:803
+msgid "DB Optimizer"
+msgstr ""
+
+#: performance.php:809 performance.php:1817
+msgid "Plugin Organizer"
+msgstr ""
+
+#: performance.php:816
+msgid "Clear Cache"
+msgstr ""
+
+#: performance.php:824
+msgid "Clear Assets Cache"
+msgstr ""
+
+#: performance.php:833
+msgid "Purge CDN (All zones)"
+msgstr ""
+
+#: performance.php:848 templates/dashboard.php:28
+msgid "Setup Wizard"
+msgstr ""
+
+#: performance.php:1045 performance.php:1058 performance.php:1082
+msgid "Advanced Cache Control doesn't supported on your server"
+msgstr ""
+
+#: performance.php:1070
+msgid "Rewrite mode isn't supported on your server"
+msgstr ""
+
+#: performance.php:1815
+msgid "Database Optimizer"
+msgstr ""
+
+#: performance.php:1816
+msgid "Critical Font"
+msgstr ""
+
+#: performance.php:1818
+msgid "Upgrade PRO"
+msgstr ""
+
+#: templates/ads/index.php:157
+msgid "Remove Ads"
+msgstr ""
+
+#: templates/critical-font.php:3
+msgid "Critical Font option needs a valid API key."
+msgstr ""
+
+#: templates/critical-font.php:7
+msgid "Font Awesome"
+msgstr ""
+
+#: templates/critical-font.php:8
+msgid "Not enqueued"
+msgstr ""
+
+#: templates/critical-font.php:10
+msgid "Update Critical Font"
+msgstr ""
+
+#: templates/critical-font.php:10
+msgid "Enqueue Critical Font"
+msgstr ""
+
+#: templates/critical-font.php:11
+msgid "Dequeue Critical Font"
+msgstr ""
+
+#: templates/critical-font.php:12
+msgid "Scan used icons"
+msgstr ""
+
+#: templates/critical-font.php:16 templates/db-optimizer.php:70
+#: templates/db-optimizer.php:81 templates/db-optimizer.php:92
+#: templates/db-optimizer.php:103 templates/db-optimizer.php:114
+#: templates/db-optimizer.php:132 templates/db-optimizer.php:143
+#: templates/db-optimizer.php:154 templates/db-optimizer.php:165
+#: templates/db-optimizer.php:186 templates/db-optimizer.php:197
+#: templates/db-optimizer.php:208
+msgid "Clear all"
+msgstr ""
+
+#: templates/dashboard.php:23 templates/dashboard.php:137
+msgid "Actions"
+msgstr ""
+
+#: templates/dashboard.php:26
+msgid "Show Rewrite Rules"
+msgstr ""
+
+#: templates/dashboard.php:29
+msgid "Show Log"
+msgstr ""
+
+#: templates/dashboard.php:29
+msgid "Clear Log"
+msgstr ""
+
+#: templates/dashboard.php:33
+msgid "Clear All Cache"
+msgstr ""
+
+#: templates/dashboard.php:36
+msgid "Clear Ajax Cache"
+msgstr ""
+
+#: templates/dashboard.php:39
+msgid "Clear Dynamic Cache"
+msgstr ""
+
+#: templates/dashboard.php:43
+msgid "3rd party caching was detected, these options may won't work properly."
+msgstr ""
+
+#: templates/dashboard.php:50
+msgid "Offers"
+msgstr ""
+
+#: templates/dashboard.php:64
+msgid "Cache Status"
+msgstr ""
+
+#: templates/dashboard.php:68
+msgid "Known Pages"
+msgstr ""
+
+#: templates/dashboard.php:72
+msgid "Cached Pages"
+msgstr ""
+
+#: templates/dashboard.php:76
+msgid "Cache size"
+msgstr ""
+
+#: templates/dashboard.php:80
+msgid "Threads"
+msgstr ""
+
+#: templates/dashboard.php:96
+msgid "AJAX Objects"
+msgstr ""
+
+#: templates/dashboard.php:100
+msgid "AJAX Cache Size"
+msgstr ""
+
+#: templates/dashboard.php:106
+msgid "Dynamic Pages"
+msgstr ""
+
+#: templates/dashboard.php:110
+msgid "Dynamic Cache Size"
+msgstr ""
+
+#: templates/dashboard.php:122
+msgid "Warmup Table"
+msgstr ""
+
+#: templates/dashboard.php:127
+msgid "Start Prebuild Cache"
+msgstr ""
+
+#: templates/dashboard.php:128
+msgid "Stop Prebuild Cache"
+msgstr ""
+
+#: templates/dashboard.php:129
+msgid "Reset Warmup Table"
+msgstr ""
+
+#: templates/db-optimizer.php:9
+msgid ""
+"Please first backup your database, because any optimization is irreversible."
+msgstr ""
+
+#: templates/db-optimizer.php:11
+msgid "I have backup!"
+msgstr ""
+
+#: templates/db-optimizer.php:20
+msgid "Database:"
+msgstr ""
+
+#: templates/db-optimizer.php:21
+msgid "tables"
+msgstr ""
+
+#: templates/db-optimizer.php:24
+msgid "Reindex tables"
+msgstr ""
+
+#: templates/db-optimizer.php:24
+msgid "Optimize tables"
+msgstr ""
+
+#: templates/db-optimizer.php:29
+msgid "Expired transients:"
+msgstr ""
+
+#: templates/db-optimizer.php:33
+msgid "Clear"
+msgstr ""
+
+#: templates/db-optimizer.php:40
+msgid "Autoload size:"
+msgstr ""
+
+#: templates/db-optimizer.php:45 templates/db-optimizer.php:49
+msgid "SHOULD FIX"
+msgstr ""
+
+#: templates/db-optimizer.php:53
+msgid "OK"
+msgstr ""
+
+#: templates/db-optimizer.php:61
+msgid "Posts"
+msgstr ""
+
+#: templates/db-optimizer.php:66
+msgid "Revisions:"
+msgstr ""
+
+#: templates/db-optimizer.php:77
+msgid "Trashed posts:"
+msgstr ""
+
+#: templates/db-optimizer.php:88
+msgid "Orphan postmeta:"
+msgstr ""
+
+#: templates/db-optimizer.php:99
+msgid "Orphan attachments:"
+msgstr ""
+
+#: templates/db-optimizer.php:110
+msgid "Duplicated postmeta:"
+msgstr ""
+
+#: templates/db-optimizer.php:128
+msgid "Spam comments:"
+msgstr ""
+
+#: templates/db-optimizer.php:139
+msgid "Trashed comments:"
+msgstr ""
+
+#: templates/db-optimizer.php:150
+msgid "Orphan commentmeta:"
+msgstr ""
+
+#: templates/db-optimizer.php:161
+msgid "Duplicated commentmeta:"
+msgstr ""
+
+#: templates/db-optimizer.php:177
+msgid "Terms & Users"
+msgstr ""
+
+#: templates/db-optimizer.php:182
+msgid "Orphan termmeta:"
+msgstr ""
+
+#: templates/db-optimizer.php:193
+msgid "Orphan usermeta:"
+msgstr ""
+
+#: templates/db-optimizer.php:204
+msgid "Duplicated usermeta:"
+msgstr ""
+
+#: templates/plugin-organizer.php:23
+msgid "No rules"
+msgstr ""
+
+#: templates/plugin-organizer.php:25
+msgid "Please Select"
+msgstr ""
+
+#: templates/plugin-organizer.php:26
+msgid "Disable"
+msgstr ""
+
+#: templates/plugin-organizer.php:31
+msgid "Enable"
+msgstr ""
+
+#: templates/plugin-organizer.php:37
+msgid "Add Rule"
+msgstr ""
+
+#: templates/plugin-organizer.php:38
+msgid ""
+"This rule will be true on every frontend requests (except AJAX requests)"
+msgstr ""
+
+#: templates/plugin-organizer.php:39
+msgid ""
+"If the URL contains the given string, the rule will be true. Use leading/"
+"trailing # for regex. Eg: #product/(.*)#"
+msgstr ""
+
+#: templates/plugin-organizer.php:40
+msgid "This rule will be true on selected admin pages"
+msgstr ""
+
+#: templates/plugin-organizer.php:41
+msgid "This rule will be true on all AJAX requests"
+msgstr ""
+
+#: templates/plugin-organizer.php:42
+msgid "This rule will be true on specific AJAX request. Eg: heartbeat"
+msgstr ""
+
+#: templates/plugin-organizer.php:43
+msgid "This rule will be true if the user has the selected user role(s)"
+msgstr ""
+
+#: templates/plugin-organizer.php:44
+msgid ""
+"This rule will be true if the query string contains the given value. Eg: "
+"test=123"
+msgstr ""
+
+#: templates/plugin-organizer.php:45
+msgid ""
+"This rule will be true if the cookies contain the given value. Eg: test=123"
+msgstr ""
+
+#: templates/plugin-organizer.php:46
+msgid "This rule will be true for desktop user agent"
+msgstr ""
+
+#: templates/plugin-organizer.php:47
+msgid "This rule will be true for mobile user agent"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://swiftperformance.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Boost your WordPress site"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SWTE"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://swteplugins.com"
+msgstr ""

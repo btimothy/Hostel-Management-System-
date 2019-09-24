@@ -1,0 +1,48 @@
+/*
+Theme Name: Hotel Luxury
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+
+body {
+	direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+}
+.cpt-detail,
+.builder-item-wrapper .builder-item-title, 
+.builder-title-wrapper .builder-item-title,
+.banner-details {
+    text-align: right;
+}
+a.banner-more {
+    padding-right: 14px;
+}
+.builder-item-wrapper .builder-item-title, 
+.builder-title-wrapper .builder-item-title {
+    float: right;
+}
+
+.builder-item-wrapper .view-all {
+    float: left;
+}
+
+.widget-area .widget .sidebar-search-form .search-submit {
+    margin-left: 0;
+    margin-right: -46px;
+}
+
+.sidebar .widget_nav_menu ul li a {
+    padding: 7px 15px 7px;
+    background-position: right center;
+}
+.blog-meta > span {
+    margin-left: 8px;
+    margin-right: 0px;
+}
+.page-title-wrapper .page-title {
+    float: right;
+}

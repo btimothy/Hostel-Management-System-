@@ -1,0 +1,47 @@
+/* Pro panel */
+#accordion-section-hotel_luxury_pro .accordion-section-title,
+#accordion-section-hotel_luxury .accordion-section-title::before,
+#accordion-section-hotel_luxury .accordion-section-title:hover {
+    background: #d54e21 !important;
+    color: #ffffff !important;
+}
+#accordion-section-hotel_luxury .accordion-section-title::after {
+    color: #FFFFFF;
+}
+
+.hotel-pro-title {
+    margin-bottom: 20px;
+}
+
+.hotel-pro-description span {
+    display: block;
+    margin-top: 7px;
+}
+
+.hotel-pro-description span:before {
+    content: "\f147";
+    color: #7ac143;
+    display: inline-block;
+    font: 400 20px/17px dashicons;
+    margin: 3px 4px 3px 0;
+    vertical-align: top;
+}
+
+.hotel-pro-description .hotel-pro-buy-button{
+    background: #7ac143 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hotel-pro-description .hotel-pro-buy-button:hover {
+    background: #90D75A;
+}
